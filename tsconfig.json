@@ -10,6 +10,12 @@
     "experimentalDecorators": true,
     "moduleResolution": "node",
     "importHelpers": true,
+    "paths": {
+      "ngx-gltf-viewer": [
+        "dist/ngx-gltf-viewer/ngx-gltf-viewer",
+        "dist/ngx-gltf-viewer"
+      ]
+    },
     "target": "es2015",
     "module": "es2020",
     "lib": [
